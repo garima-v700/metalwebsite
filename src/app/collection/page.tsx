@@ -11,13 +11,14 @@ export const metadata: Metadata = {
 
 export default async function CollectionPage() {
   const catalog = await fetchCatalog()
-  const cards        = catalog?.cards      ?? []
+  const cards = catalog?.cards ?? []
   const allCategories = catalog?.categories ?? DEFAULT_CATEGORIES
 
-  // Only show categories that have at least 1 card assigned
-  const categories = allCategories.filter(cat =>
-    cards.some(c => c.category === cat.id)
-  )
+  // Get unique category IDs that actually have cards
+  const activeCatIds = new Set(cards.map(c => c.category))
+
+  // Only show categories that have at least 1 card
+  const categories = allCategories.filter(cat => activeCatIds.has(cat.id))
 
   return (
     <>
