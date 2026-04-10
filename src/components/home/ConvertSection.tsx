@@ -13,7 +13,7 @@ export default function ConvertSection() {
       {/* Video on right */}
       <video autoPlay loop muted playsInline
         style={{ position: 'absolute', right: 111, top: '50%', transform: 'translateY(calc(-50% + 18px))', width: 537, height: 363, objectFit: 'cover', borderRadius: 12 }}>
-        <source src="/videos/convert-card.mp4" type="video/mp4" />
+        <source src="/videos/cardVideo (1).webm" type="video/webm" />
       </video>
 
       {/* Left content */}
