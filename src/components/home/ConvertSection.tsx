@@ -28,7 +28,7 @@ export default function ConvertSection() {
       {/* Subtext points */}
       <div style={{ position: 'absolute', left: 85, top: 320, display: 'flex', flexDirection: 'column', gap: 12 }}>
         <p style={{ fontSize: 22, color: 'rgba(214,214,214,0.82)' }}>Works like your existing payment card</p>
-        <p style={{ fontSize: 22, color: 'rgba(214,214,214,0.82)' }}>FREE Movie Tickets worth <strong style={{ color: 'white' }}>₹300</strong></p>
+        <p style={{ fontSize: 22, color: 'rgba(214,214,214,0.82)' }}>FREE Movie Tickets worth ₹300</p>
       </div>
 
       <Link href="/collection"
