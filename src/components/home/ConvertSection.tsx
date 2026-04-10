@@ -16,19 +16,14 @@ export default function ConvertSection() {
         style={{ position: 'absolute', left: 85, top: 149, fontSize: 55, fontWeight: 800, lineHeight: '66px', width: 660 }}>
         Convert Your Plastic Payment Card to Metal
       </h2>
-      <p style={{ position: 'absolute', left: 85, top: 303.97, fontSize: 25, color: 'rgba(214,214,214,0.82)', width: 449 }}>
+      <p style={{ position: 'absolute', left: 85, top: 310, fontSize: 22, color: 'rgba(214,214,214,0.82)', width: 449 }}>
         Works like your existing payment card
       </p>
-      <div style={{ position: 'absolute', left: 85, top: 364, width: 617, height: 1 }}>
+      <div style={{ position: 'absolute', left: 85, top: 360, width: 617, height: 1 }}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src={ASSETS.convertDivider} alt="" style={{ width: '100%' }} />
       </div>
-      <div style={{ position: 'absolute', left: 85, top: 396, display: 'flex', alignItems: 'center', gap: 16 }}>
-        <div style={{ width: 62, height: 62, overflow: 'hidden', borderRadius: 4 }}>
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={ASSETS.movieTicket} alt="Movie ticket" style={{ width: '123%', height: '123%', marginLeft: '-10%', marginTop: '-15%' }} />
-        </div>
-        <p style={{ fontSize: 25, color: '#d6d6d6' }}>FREE Movie Tickets worth <strong>₹300</strong></p>
+        <p style={{ fontSize: 22, color: '#d6d6d6' }}>FREE Movie Tickets worth <strong>₹300</strong></p>
       </div>
       <Link href="/collection"
         style={{ position: 'absolute', left: 85, top: 484, background: 'white', borderRadius: 13, height: 79, width: 377, display: 'flex', alignItems: 'center', justifyContent: 'center', textDecoration: 'none' }}>
